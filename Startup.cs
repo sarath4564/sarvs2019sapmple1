@@ -33,6 +33,7 @@ namespace sarvs2019sapmple1
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Welcome to Shiva");
                 });
             });
         }
